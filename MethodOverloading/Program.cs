@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Add(1.01, 1.02, true);
+            Add(1, 2);
         }
 
         public static int Add(int num1, int num2)
@@ -31,7 +31,7 @@
 
             else
             {
-                return "0 dollars";
+                return $"{num1 + num2}";
             }
         }
     }
